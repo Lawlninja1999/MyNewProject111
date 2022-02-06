@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f95eaf78-0017-4d49-a093-77ff22edb173</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>XRE.Common</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Functions\CRUD_Functions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Functions\NewFunctions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ActivityProviderModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DayModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\BookingModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Event.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Documentation\" />
+  </ItemGroup>
+</Project>

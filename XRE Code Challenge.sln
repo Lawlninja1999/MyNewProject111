@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRE Code Challenge", "XRE Code Challenge.csproj", "{0FB1FE5D-D066-4F38-BAB3-BE667D86A52B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XRE.Common", "XRE.Common\XRE.Common.shproj", "{F95EAF78-0017-4D49-A093-77FF22EDB173}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XRE.Common\XRE.Common.projitems*{0fb1fe5d-d066-4f38-bab3-be667d86a52b}*SharedItemsImports = 4
+		XRE.Common\XRE.Common.projitems*{f95eaf78-0017-4d49-a093-77ff22edb173}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FB1FE5D-D066-4F38-BAB3-BE667D86A52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB1FE5D-D066-4F38-BAB3-BE667D86A52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB1FE5D-D066-4F38-BAB3-BE667D86A52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB1FE5D-D066-4F38-BAB3-BE667D86A52B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {083216ED-B364-4095-8F23-D7FA73C16871}
+	EndGlobalSection
+EndGlobal
