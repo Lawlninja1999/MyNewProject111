@@ -17,9 +17,19 @@ namespace XRE_Grad_Test
             List<ActivityProviderModel> ActivityProviders = CRUD_Functions.SetupProviders();  
             List<Event> rrr = NewExtensions.SetupEvents(ActivityProviders, Days);
 
-            
-            NewExtensions.CreateJson(rrr);
-      
+
+            //Task Three
+            NewExtensions.GetStartAndEndTime(rrr, Days, Bookings);
+
+            //Task Four
+            NewExtensions.GetNumberOfEvents(rrr, Days);
+
+            //Task Five
+            NewExtensions.CreateJson(rrr, ActivityProviders);
+          
+           
+
+
 
 
             //List of activities here
